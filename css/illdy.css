@@ -1,0 +1,73 @@
+*{box-sizing: border-box;
+  color: gray;}
+img{max-width: 100%;}
+h1{color: darkslategray;}
+/*section1*/
+.header{background: url(../illdy/home.jpg);
+   background-position:center;
+   background-attachment: fixed;
+   background-repeat: no-repeat;  
+}
+.header div span i{font-size: small;
+    color: gold;}
+.learn{color: white;
+    margin: 10px;
+    width:250px;
+    border-radius: 0px;
+    padding: 15px;}
+/*section2*/
+.bars{width: 90%;
+      margin: auto;}
+.myProgress {width: 100%;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    text-align: center;
+}   
+  #myBar {
+    width: 60%;
+    height:25px;
+    background-color: orangered;
+    color: white;
+  }
+  #myBar1 {
+    width: 82%;
+    height: 25px;
+    color: white;
+    background-color: goldenrod;
+  }
+  #myBar2 {
+    width: 86%;
+    height: 25px;
+    color: white;
+    background-color: purple;
+  }
+/*section3*/
+.section3{height: 200px;
+  background: url(../illdy/projectbg.jpeg);}  
+/*section5*/
+.section5{
+  background: url(../illdy/testiomnials-background.jpg);}  
+.comments{background-color: rgb(88, 8, 122);}
+/*section6*/
+.row {
+  --bs-gutter-x: 0rem;}
+/*section8*/
+.section8{background: url(../illdy/background.jpg);}  
+/*section9*/
+.section9{background: url(../illdy/projectbg.jpeg);}
+
+
+
+@media only screen and (min-width:768px){
+  .clean{padding-top: 150px !important;}
+}
+@media only screen and (min-width:992px){
+  .clean{padding-top: 200px !important;}
+  .header{height: 100vh;}
+  .subheading{font-size: medium !important;
+              font-weight: bold;}
+  .menu{padding-top: 20px;
+        padding-left: 200px;}            
+}
+
+
